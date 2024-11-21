@@ -1,6 +1,8 @@
 # DungeonMaster
 A LLM-Based D&D Game Master
+
 Northeastern University, CS 5200 Final Project
+
 Author: Xiaoyang Fei, Maalolan Bharaniraj
 
 ## Description
