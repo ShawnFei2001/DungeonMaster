@@ -1,0 +1,45 @@
+export CUDA_VISIBLE_DEVICES=0  # or whichever GPU you want to use
+export TOKENIZERS_PARALLELISM=true
+
+deepspeed --num_gpus=1 model.py
+
+8-bit Quantization:
+
+Model loaded in 8-bit mode using load_in_8bit=True
+Prepared for int8 training using prepare_model_for_int8_training
+Adjusted batch sizes and learning rate for 8-bit training
+
+
+DeepSpeed Integration:
+
+ZeRO stage 3 for maximum memory efficiency
+Gradient accumulation and clipping
+Optimized micro batch sizes
+FP16 mixed precision training
+
+
+LoRA Configuration:
+
+Optimized for 8-bit training
+Targeting all attention modules
+Adjusted rank and alpha for better performance
+
+
+Memory Optimizations:
+
+Reduced sequence length
+Gradient checkpointing enabled
+Efficient tokenization strategy
+Minimal checkpoint saving
+
+Primary Text Fields for Tokenization:
+
+The dataset likely requires tokenization of fields like:
+"before_utterances": Context before the conversation.
+"after_utterances": Response text after the context.
+
+Handling Multiple Fields:
+
+Depending on your objective, you may:
+Tokenize both before_utterances and after_utterances.
+Use before_utterances as input and after_utterances as the target.
