@@ -1,9 +1,11 @@
+
+
 ---
 
 # DungeonMaster: An LLM-Based D&D Game Master
 
 ## Overview
-**DungeonMaster** is an AI-powered Dungeon & Dragons game master that uses Large Language Models (LLMs) to create immersive and dynamic tabletop RPG experiences. This project automates storytelling, model memory and world-building while preserving the creativity and unpredictability of traditional D&D gameplay.
+**DungeonMaster** is an AI-powered Dungeon & Dragons game master that uses Large Language Models (LLMs) to create immersive and dynamic tabletop RPG experiences. This project automates storytelling, model memory, and world-building while preserving the creativity and unpredictability of traditional D&D gameplay.
 
 This repository contains the final project for **Northeastern University, CS 5220**, authored by **Xiaoyang Fei** and **Maalolan Bharaniraj**.
 
@@ -35,7 +37,7 @@ This repository contains the final project for **Northeastern University, CS 522
 6. Execute the Colab cells step by step to initiate gameplay.
 
 ### Option 2: Train Your Own Model
-1. Clone the repository to your local machine or desired cluster(Please request at least one GPU).
+1. Clone the repository to your local machine or desired cluster (ensure GPU access is available).
 2. Modify the `discovery.command` file:
    - Replace Xiaoyang's Northeastern Discovery Cluster credentials with your own.
 3. Follow these steps on your cluster:
@@ -47,5 +49,7 @@ This repository contains the final project for **Northeastern University, CS 522
 ---
 
 ## Acknowledgments
-We extend our gratitude to our professor, teaching assistants for their support throughout this project.
+We extend our gratitude to our professor and teaching assistants for their support throughout this project.  
 Happy Adventuring! 🐉
+
+---
